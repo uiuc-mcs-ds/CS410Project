@@ -76,6 +76,6 @@ Future enhancements may be done like addition of Flask application to build API 
 ## Getting Started
 - Clone the repository:  
   ```bash
-  git clone https://github.com/yourusername/weather-insights-trend-analysis.git
+  git clone https://github.com/uiuc-mcs-ds/CS410Project.git
 
 
