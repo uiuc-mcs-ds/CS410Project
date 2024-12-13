@@ -12,7 +12,7 @@ Future enhancements may be done like addition of Flask application to build API 
 ### Data Collection
 - **Weather Data**:
   - Fetches real-time weather data using the [OpenWeather API](https://openweathermap.org/api).
-  - Includes attributes such as temperature, humidity, wind speed, and weather descriptions.
+  - Includes attributes such as temperature, humidity, wind speed, pressure and weather descriptions.
   - Supports location-based weather queries using latitude and longitude.
 - **Social Media Data**:
   - Fetches recent tweets related to weather using the [Twitter API](https://developer.twitter.com/).
