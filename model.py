@@ -48,6 +48,7 @@ def generate_labels(weather_data, num_samples):
     return [labels] * num_samples
 
 # Model Training
+# get features, labels
 def train_model(X, y):
     # Convert multi-labels to a binary matrix
     mlb = MultiLabelBinarizer()
