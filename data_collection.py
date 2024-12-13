@@ -4,6 +4,7 @@ import tweepy
 import json
 
 # Fetch Weather Data
+# Requires api key that generated from OpenWeatherAPI account page
 def fetch_weather_data(latitude, longitude, api_key):
     url = f'http://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&appid={api_key}&units=imperial'
     response = requests.get(url)
@@ -13,6 +14,7 @@ def fetch_weather_data(latitude, longitude, api_key):
         return {"error": "Unable to fetch weather data"}
 
 # Fetch Twitter Data
+# Requires api key, secret that generated from Twitter account page
 def fetch_tweets(api_key, api_secret, bearer_token, query, latitude=None, longitude=None, radius="25mi"):
     client = tweepy.Client(bearer_token=bearer_token)
     #if latitude and longitude:
