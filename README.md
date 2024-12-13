@@ -135,7 +135,7 @@ Follow these instructions to set up the environment and run the Python project.
 
 6. **Run the Python Code Execute the main script or specific modules as needed**
    ```bash
-   python data_collection.py
+   python main.py
 
 7. **Verify Outputs**
     - Check the console for logs and outputs.
