@@ -78,4 +78,51 @@ Future enhancements may be done like addition of Flask application to build API 
   ```bash
   git clone https://github.com/uiuc-mcs-ds/CS410Project.git
 
+---
+
+## Installation Instructions
+
+Follow these instructions to set up the environment and run the Python project.
+
+### Prerequisites
+- Python 3.7.9 or later installed on your system.
+- `pip` (Python package installer) should be installed and accessible.
+- Basic knowledge of Python virtual environments (recommended).
+
+### Steps to Install
+
+1. **Clone the Repository**
+   ```bash
+   git clone <repository_url>
+   cd <repository_directory>
+
+2. **Set Up a Virtual Environment (Recommended)**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate    # On macOS/Linux
+   .\venv\Scripts\activate     # On Windows
+
+3. **Install Required Dependencies Install all dependencies listed in the requirements.txt file**
+   ```bash
+   pip install -r requirements.txt
+
+4. **Install NLTK Data Download necessary datasets for NLTK (e.g., stopwords and punkt)**
+   ```bash
+   python -m nltk.downloader punkt
+   python -m nltk.downloader stopwords
+
+5. **Set Up API Keys**
+   Ensure you have the required API keys for:
+    - OpenWeatherMap API for weather data.
+    - Twitter API (Tweepy) for tweet collection.
+   
+   Place your API keys in the appropriate variables in the script files where they are required.
+
+6. **Run the Python Code Execute the main script or specific modules as needed**
+   ```bash
+   python data_collection.py
+
+7. **Verify Outputs**
+    - Check the console for logs and outputs.
+    - Ensure that the processed data, model results, and visualizations are generated as expected.
 
