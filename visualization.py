@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.metrics import multilabel_confusion_matrix, ConfusionMatrixDisplay
 import seaborn as sns
 
-
+#Plot label confusion matrix
 def plot_label_confusion_matrix(y_test, y_pred, labels):
     confusion_matrices = multilabel_confusion_matrix(y_test, y_pred)
     for i, label in enumerate(labels):
@@ -13,6 +13,7 @@ def plot_label_confusion_matrix(y_test, y_pred, labels):
         plt.title(f"Confusion Matrix for '{label}'")
         plt.show()
 
+#Plot label cooccurence
 def plot_label_cooccurrence(y, labels):
     cooccurrence = np.dot(np.array(y).T, np.array(y))
     plt.figure(figsize=(8, 6))
