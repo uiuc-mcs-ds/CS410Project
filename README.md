@@ -55,7 +55,7 @@ Future enhancements may be done like addition of Flask application to build API 
 
   <img width="500" alt="image" src="https://github.com/user-attachments/assets/18fc6612-8fa5-4cdf-994d-40948b222157" />
   <img width="500" alt="image" src="https://github.com/user-attachments/assets/85413025-a853-4692-946d-eae129495c17" />
-  <img width="500" alt="image" src="https://github.com/user-attachments/assets/ab44dc3f-c437-41fc-900a-5f5451fb9f11" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/4de117f8-f817-44d9-9003-bea8249ff5ac" />
   <img width="500" alt="image" src="https://github.com/user-attachments/assets/b237dd60-b4a0-4f34-8d4b-8b4e02371e95" />
   <img width="500" alt="image" src="https://github.com/user-attachments/assets/8138ed55-065b-4afe-8a87-8e94eb3f630f" />
   <img width="500" alt="image" src="https://github.com/user-attachments/assets/10821e1d-e07d-408d-9129-c0757b329c5a" />
