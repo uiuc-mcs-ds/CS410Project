@@ -108,8 +108,8 @@ Follow these instructions to set up the environment and run the Python project.
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone https://github.com/uiuc-mcs-ds/CS410Project.git
+   cd CS410Project
 
 2. **Set Up a Virtual Environment (Recommended)**
    ```bash
