@@ -131,7 +131,7 @@ Follow these instructions to set up the environment and run the Python project.
     - OpenWeatherMap API for weather data.
     - Twitter API (Tweepy) for tweet collection.
    
-   Place your API keys in the appropriate variables in the script files where they are required.
+   Place your API keys in the code where they are required to invoke corresponding APIs.
 
 6. **Run the Python Code Execute the main script or specific modules as needed**
    ```bash
