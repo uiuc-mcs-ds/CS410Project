@@ -40,6 +40,10 @@ Future enhancements may be done like addition of Flask application to build API 
   - **Recall**: Proportion of true positives among actual positives.
   - **nDCG@10**: Measures ranking quality.
 
+### Flexibility
+- Combines data from APIs (OpenWeatherMap, Twitter) to demonstrate real-world integration.
+- Extensible to more comprehensive datasets and APIs for advanced analysis.
+
 ### Visualization
 - **Label Analysis**:
   - Label co-occurrence heatmap to visualize correlations between different weather labels.
@@ -47,11 +51,22 @@ Future enhancements may be done like addition of Flask application to build API 
 - **Trend Analysis**:
   - Correlation heatmap to visualize relationships between weather attributes and textual features.
   - Bar charts summarizing model performance metrics.
+- **Screenshots From Initial Testing**:
 
-### Flexibility
-- Combines data from APIs (OpenWeatherMap, Twitter) to demonstrate real-world integration.
-- Extensible to more comprehensive datasets and APIs for advanced analysis.
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/18fc6612-8fa5-4cdf-994d-40948b222157" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/85413025-a853-4692-946d-eae129495c17" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/ab44dc3f-c437-41fc-900a-5f5451fb9f11" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/b237dd60-b4a0-4f34-8d4b-8b4e02371e95" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/8138ed55-065b-4afe-8a87-8e94eb3f630f" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/10821e1d-e07d-408d-9129-c0757b329c5a" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/1ee6c99f-16da-40b4-a548-40d5c22271e6" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/dc9747a5-da2b-4787-9fdd-8577e8bf82be" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/2b3cc12c-1a7c-4167-8169-49238018474f" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/f8616b0c-bd61-416b-b46b-0fb6eaa9ea2a" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/9c8d8c21-6b1e-49e3-867f-d94fef090589" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/5869aec7-967b-4c6e-91fb-a7f1844ba123" />
 
+    
 ---
 
 ## Technology Stack
