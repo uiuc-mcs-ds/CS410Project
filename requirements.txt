@@ -1,3 +1,4 @@
+#external packages and libraries
 requests==2.31.0
 tweepy==4.14.0
 scikit-learn==1.0.2
