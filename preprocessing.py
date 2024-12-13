@@ -15,6 +15,7 @@ def preprocess_text(text):
     return ' '.join([ps.stem(word) for word in tokens if word not in stopwords.words('english')])
 
 # TF-IDF Vectorization
+#using max features
 def tfidf_vectorize(corpus):
     vectorizer = TfidfVectorizer(max_features=500)
     return vectorizer.fit_transform(corpus)
