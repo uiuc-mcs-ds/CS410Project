@@ -10,7 +10,6 @@ def main():
     ########data_collection.py
     # Example Usage
     # weather_data = fetch_weather_data('New York', 'your_openweathermap_api_key')
-    # weather_data = fetch_weather_data('New York', 'your_openweathermap_api_key')
     cache_file_weather = "weather_data.json"
     cache_file_tweets = "tweets.json"
     # Check if cached data exists and is not too old
